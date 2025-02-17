@@ -1,38 +1,136 @@
-:root{
-    /*Tipografia*/
-    /* font-family: "Open Sans", serif; */
-    font-size:  16px;
+:root {
+  /*Tipografia*/
+  font-family: "Open Sans", serif;
+  font-size: 16px;
 
-    /*Colors*/
-    --bg-color-default: #f5f4f0;
-    --border-color-primary: #d9d9d9/
-    --text-color-primary: #1b1b1b;
-    --text-color-seconday: #333;
-    --text-color-tertiary: #696969;
-    --text-color-headline: #e1624f;
-
-    --color-accent-blue:  #0c51a7;
-    --color-accent-orange: #e95e10;
-    --color-accent-pink: #e5245e;
-    --color-accent-purple: #591b98;
+  /*Colors*/
+  --bg-color-default: #f5f4f0;
+  --border-color-primary: #d9d9d9;
+  --text-color-primary: #1b1b1b;
+  --text-color-seconday: #333;
+  --text-color-tertiary: #696969;
+  --text-color-headline: #e1624f;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
+body {
+  margin-top: 80px;
+  background-color: var(--bg-color-default);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-color-primary);
+}
+h1 {
+  font-style: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p {
+  color: var(--text-color-seconday);
+}
+
+img {
+  width: 100%;
+  border-radius: 28px;
+}
+
+.divider{
+    margin: 40px 0;
+}
+.blue {
+  color: #0c51a7;
+}
+
+.pink {
+  color: #e5245e;
+}
+
+.orange {
+  color: #e95e10;
+}
+
+.purple {
+  color: #591b98;
+}
+
+#container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.description{
+  text-align: center;
+}
+
+.title-page {
+  margin-bottom: 44px;
+}
+
+.headline {
+  color: var(--text-color-headline);
+  font-weight: bold;
+}
+
+.main-info img {
+  height: 660px;
+}
+.main-info .description {
+  margin-top: 24px;
+}
+
+#content {
+  margin-top: 64px;
+}
+
+#content img {
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+#content h2 {
+  margin: 8px 0;
+}
+
+#content .description {
+  margin-bottom: 64px;
+}
+
+#content .card + .card {
+  margin-top: 48px;
+}
+
+#content .card p{
+  text-indent: 2rem;
 
 }
 
-/* h1{
-font-style: 36px;
+#content h3 {
+  margin-bottom: 4px;
 }
-h2{
-    font-style: 32px;
+
+#content li{
+    font-weight: bold;
+    list-style-position: inside;
+    padding-left: 10px;
 }
-h3{
-    font-style: 28px;
-} */
+
+
+footer{
+  text-align: center;
+    margin: 48px 0;
+}
